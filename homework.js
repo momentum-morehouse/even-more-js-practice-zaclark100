@@ -3,13 +3,18 @@
 // assign your variable the value 6
 // console log your variable
 
-let fruit = "zac"
+let fruit = 6
 console.log(fruit)
 // write a function called product that accepts two numbers and 
 // logs the product in the console and then
 // returns the answer when you multiply them both together
 // call that function on the numbers 4 & 689 to test it
-
+function product(numberOne, numberTwo){
+  let product = numberOne * numberTwo;
+  console.log(product);
+  return product
+}
+product(4,689)
 // Problem 2
 // write a function called evens that takes an array of numbers, removes 
 // all the numbers that are odd and returns a new array with only the even numbers
