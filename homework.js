@@ -3,7 +3,8 @@
 // assign your variable the value 6
 // console log your variable
 
-
+let fruit = "zac"
+console.log(fruit)
 // write a function called product that accepts two numbers and 
 // logs the product in the console and then
 // returns the answer when you multiply them both together
